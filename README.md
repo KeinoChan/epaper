@@ -3,5 +3,6 @@
 
 https://www.waveshare.net/wiki/4.2inch_e-Paper_Module_Manual#Raspberry_Pi
 
-
+pip: package installer for Python
+pil: Python image library
 

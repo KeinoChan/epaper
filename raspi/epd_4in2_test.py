@@ -9,10 +9,8 @@ libdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib')
 if os.path.exists(libdir):
     sys.path.append(libdir)
 
-print(sys.path)
-
 import logging
-from waveshare_epd import epd4in2
+import epd4in2
 import time
 from PIL import Image,ImageDraw,ImageFont
 import traceback
